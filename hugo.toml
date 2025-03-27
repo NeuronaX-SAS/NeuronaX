@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "https://neuronax.neuronax-sas.workers.dev/"
+baseURL = "https://www.neuronax.ney/"
 # Title of your website (required).
 title = "NeuronaX S.A.S"
 # Your theme name
