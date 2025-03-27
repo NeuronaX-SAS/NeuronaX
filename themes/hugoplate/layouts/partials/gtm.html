@@ -2,34 +2,8 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16950874450"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){ dataLayer.push(arguments); }
+  function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  // Configuración global con el ID de conversión
   gtag('config', 'AW-16950874450');
 </script>
-
-{{/* 
-  Snippet de evento para la página de conversión.
-  Para que se active, en el front matter de la página de conversión incluye:
-  
-  conversion: true
-  conversion_value: 100.0       # (opcional, por defecto "100.0")
-  conversion_currency: "COP"    # (opcional, por defecto "COP")
-*/}}
-{{ if .Params.conversion }}
-<script>
-  // Lee la variable de Hugo como string y la convierte en número
-  var conversionValue = parseFloat('{{ .Params.conversion_value | default "100.0" }}');
-  
-  // Lee la moneda; si no se define, usa "COP"
-  var conversionCurrency = '{{ .Params.conversion_currency | default "COP" }}';
-
-  // Evento de conversión para Google Ads
-  gtag('event', 'conversion', {
-    'send_to': 'AW-16950874450/nfLZCLnmyLAaENKi55I_',
-    'value': conversionValue,
-    'currency': conversionCurrency
-  });
-</script>
-{{ end }}
