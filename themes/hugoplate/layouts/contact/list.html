@@ -18,15 +18,6 @@
     var $mcj = jQuery.noConflict(true);
   </script>
 
-  <!-- Event snippet for Cotiza conversion page -->
-<script>
-  gtag('event', 'conversion', {
-    'send_to': 'AW-16950874450/nfLZCLnmyLAaENKi55I_',
-    'value': 100.0,
-    'currency': 'COP'
-  });
-</script>
-
 
   <section class="section-sm">
     <div class="container">
@@ -190,4 +181,18 @@
     <script src="https://maps.googleapis.com/maps/api/js?key={{ site.Params.google_map.map_api_key }}&libraries=places"></script>
   {{ end }}
 
+
+
+
+    <!-- Event snippet for Cotiza conversion page -->
+    <script>
+      gtag('event', 'conversion', {
+        'send_to': 'AW-16950874450/nfLZCLnmyLAaENKi55I_',
+        'value': 100.0,
+        'currency': 'COP'
+      });
+    </script>
+
+
+    
 {{ end }}
