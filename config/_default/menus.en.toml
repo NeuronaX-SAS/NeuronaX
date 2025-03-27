@@ -1,0 +1,58 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Inicio"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Acerca"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Nuestros Proyectos"
+url = "/elements"
+weight = 3
+
+[[main]]
+weight = 4
+name = "Más"
+
+[[main]]
+parent = "Más"
+name = "Blog"
+url = "/blog"
+
+#[[main]]
+#parent = "Más"
+#name = "Categorías"
+#url = "/categories"
+
+[[main]]
+parent = "Más"
+name = "Nosotros"
+url = "/authors"
+
+[[main]]
+parent = "Más"
+name = "Contacto"
+url = "/contact"
+
+
+# footer menu
+[[footer]]
+name = "Acerca"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Proyectos"
+url = "/elements"
+weight = 2
+
+[[footer]]
+name = "Términos y Condiciones"
+url = "/privacy-policy"
+weight = 3

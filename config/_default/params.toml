@@ -1,0 +1,88 @@
+#################### default parameters ############################
+favicon = "images/favicon.png"
+logo = "images/logo.png"
+logo_darkmode = "images/logo-darkmode.png"
+logo_width = "160px"
+logo_height = "32px"
+logo_webp = true
+logo_text = "NeuronaX S.A.S"
+
+navbar_fixed = true
+theme_switcher = true
+theme_default = "system" # available options [light/dark/system]
+mainSections = ["blog"]
+
+# Esta acción se usaba para un formulario de contacto, pero ahora todo lo maneja Mailchimp en subscription
+contact_form_action = "https://instagram.us1.list-manage.com/subscribe/post?u=c94c8f342aaef2f35a35d45d9&id=dc9cb70629&f_id=006413e1f0"
+
+google_tag_manager = ""
+google_adsense = ""
+custom_script = ""
+
+copyright = "Diseñado y Desarrollado por [NeuronaX S.A.S](https://linktr.ee/neuronax.sas)"
+
+[preloader]
+enable = false
+preloader = ""
+
+[navigation_button]
+enable = true
+label = "Contacto"
+link = "contact"
+
+[search]
+enable = true
+primary_color = "#121212"
+include_sections = ["blog"]
+show_image = true
+show_description = true
+show_tags = true
+show_categories = true
+
+[announcement]
+enable = false
+expire_days = 7
+content = "You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file."
+
+[metadata]
+keywords = ["NeuronaX", "S.A.S"]
+description = "Empresa de desarrollo de tecnología, publicidad digital y asesorías legales-financieras."
+author = "NeuronaX"
+twitter = "NeuronaX_SAS"
+image = "images/og-image.png"
+
+[site_verification]
+google = ""
+bing = ""
+baidu = ""
+facebook = ""
+mastodon = ""
+
+[cookies]
+enable = false
+expire_days = 60
+content = "Este sitio utiliza cookies. Utilizándolo aceptas su implementación y uso."
+button = "Acepto"
+
+[mermaid]
+js_url = 'https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs'
+
+[widgets]
+sidebar = ["categories", "tags"]
+
+[google_map]
+enable = false
+map_api_key = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+
+#############################
+# Sección CRUCIAL: Subscription
+#############################
+[subscription]
+enable = true
+# URL actualizada según el nuevo formulario de Mailchimp
+mailchimp_form_action = "https://instagram.us1.list-manage.com/subscribe/post?u=c94c8f342aaef2f35a35d45d9&id=dc9cb70629&f_id=006413e1f0"
+mailchimp_form_name = "mc-embedded-subscribe-form"
+button_label = "Subscribe"
