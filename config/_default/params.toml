@@ -15,7 +15,7 @@ mainSections = ["blog"]
 # Esta acción se usaba para un formulario de contacto, pero ahora todo lo maneja Mailchimp en subscription
 contact_form_action = "https://instagram.us1.list-manage.com/subscribe/post?u=c94c8f342aaef2f35a35d45d9&id=dc9cb70629&f_id=006413e1f0"
 
-google_tag_manager = ""
+google_tag_manager = "gtag.js"
 google_adsense = ""
 custom_script = ""
 
