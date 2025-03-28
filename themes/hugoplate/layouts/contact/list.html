@@ -1,11 +1,12 @@
 {{ define "main" }}
 
+  <!-- Encabezado o Header de la página -->
   {{ partial "page-header" . }}
 
-  <!-- Incluir jQuery (solo si aún no lo has incluido en tu layout) -->
+  <!-- Incluir jQuery (si aún no se ha incluido en el layout principal) -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-  <!-- Script de validación de Mailchimp (necesario para mostrar mensajes de error/success) -->
+  <!-- Script de validación de Mailchimp (necesario para mostrar mensajes de error/éxito) -->
   <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js" type="text/javascript"></script>
   <script type="text/javascript">
     (function($) {
@@ -18,9 +19,8 @@
     var $mcj = jQuery.noConflict(true);
   </script>
 
-
-
-  <section class="section-sm">
+  <!-- Sección del formulario con menos margen superior para que aparezca más arriba -->
+  <section class="section-sm py-4">
     <div class="container">
       <div class="row">
         <div class="md:col-10 lg:col-6 mx-auto">
@@ -28,20 +28,23 @@
           {{ with site.Params.subscription }}
             {{ if .enable }}
 
-              <!-- Ajuste #1: gradiente más evidente y menos margen vertical (my-2 en lugar de my-6) -->
+              <!-- Contenedor con gradiente adaptable a modo claro/oscuro -->
               <div 
                 id="mc_embed_shell" 
-                class="bg-gradient-to-r from-blue-200 to-blue-50 p-6 rounded-md shadow-md max-w-lg mx-auto my-2"
+                class="bg-gradient-to-br 
+                       from-gray-100 to-gray-200 
+                       dark:from-gray-800 dark:to-gray-900 
+                       p-6 rounded-md shadow-md max-w-lg mx-auto my-4"
               >
                 <div id="mc_embed_signup">
-
+                  
                   <!-- Título del formulario -->
-                  <h2 class="text-2xl font-bold mb-4 text-gray-900">
+                  <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">
                     Agenda con un Experto
                   </h2>
 
-                  <!-- Descripción o instrucción breve -->
-                  <p class="text-sm mb-4 text-gray-700">
+                  <!-- Descripción breve -->
+                  <p class="text-sm mb-4 text-gray-700 dark:text-gray-300">
                     <span class="text-red-500 font-bold">*</span> Obligatorio
                   </p>
 
@@ -59,14 +62,22 @@
 
                       <!-- Campo Email -->
                       <div class="mc-field-group">
-                        <label for="mce-EMAIL" class="block mb-1 font-semibold text-gray-800">
+                        <label 
+                          for="mce-EMAIL" 
+                          class="block mb-1 font-semibold text-gray-800 dark:text-gray-200"
+                        >
                           Correo electrónico 
                           <span class="text-red-500 font-bold">*</span>
                         </label>
                         <input 
                           type="email" 
                           name="EMAIL" 
-                          class="required email w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500" 
+                          class="required email w-full p-2 
+                                 border border-gray-300 dark:border-gray-600 
+                                 rounded-md focus:outline-none 
+                                 focus:border-blue-500 dark:focus:border-blue-400 
+                                 bg-white dark:bg-gray-700 
+                                 text-gray-900 dark:text-gray-100"
                           id="mce-EMAIL" 
                           required 
                           placeholder="ejemplo@correo.com"
@@ -75,27 +86,43 @@
 
                       <!-- Campo Nombre -->
                       <div class="mc-field-group">
-                        <label for="mce-FNAME" class="block mb-1 font-semibold text-gray-800">
+                        <label 
+                          for="mce-FNAME" 
+                          class="block mb-1 font-semibold text-gray-800 dark:text-gray-200"
+                        >
                           Nombre
                         </label>
                         <input 
                           type="text" 
                           name="FNAME" 
-                          class="text w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500" 
+                          class="text w-full p-2 
+                                 border border-gray-300 dark:border-gray-600 
+                                 rounded-md focus:outline-none 
+                                 focus:border-blue-500 dark:focus:border-blue-400 
+                                 bg-white dark:bg-gray-700 
+                                 text-gray-900 dark:text-gray-100"
                           id="mce-FNAME"
                           placeholder="Nombre"
                         >
                       </div>
 
-                      <!-- Campo Mensaje (Textarea) -->
+                      <!-- Campo Mensaje -->
                       <div class="mc-field-group">
-                        <label for="mce-MMERGE7" class="block mb-1 font-semibold text-gray-800">
+                        <label 
+                          for="mce-MMERGE7" 
+                          class="block mb-1 font-semibold text-gray-800 dark:text-gray-200"
+                        >
                           Mensaje
                         </label>
                         <textarea
                           name="MMERGE7"
                           id="mce-MMERGE7"
-                          class="text w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                          class="text w-full p-2 
+                                 border border-gray-300 dark:border-gray-600 
+                                 rounded-md focus:outline-none 
+                                 focus:border-blue-500 dark:focus:border-blue-400 
+                                 bg-white dark:bg-gray-700 
+                                 text-gray-900 dark:text-gray-100"
                           rows="4"
                           placeholder="¿En qué podemos servir?"
                         ></textarea>
@@ -103,18 +130,41 @@
 
                       <!-- Campo oculto para etiquetas (opcional) -->
                       <div hidden>
-                        <input type="hidden" name="tags" value="4910217,4910218,4910219">
+                        <input 
+                          type="hidden" 
+                          name="tags" 
+                          value="4910217,4910218,4910219"
+                        >
                       </div>
 
                       <!-- Mensajes de error / éxito -->
-                      <div id="mce-responses" class="clear foot hidden">
-                        <div class="response text-red-500" id="mce-error-response" style="display:none"></div>
-                        <div class="response text-green-500" id="mce-success-response" style="display:none"></div>
+                      <div 
+                        id="mce-responses" 
+                        class="clear foot hidden"
+                      >
+                        <div 
+                          class="response text-red-500" 
+                          id="mce-error-response" 
+                          style="display:none"
+                        ></div>
+                        <div 
+                          class="response text-green-500" 
+                          id="mce-success-response" 
+                          style="display:none"
+                        ></div>
                       </div>
 
                       <!-- Campo oculto anti-bot -->
-                      <div aria-hidden="true" style="position: absolute; left: -5000px;">
-                        <input type="text" name="b_c94c8f342aaef2f35a35d45d9_dc9cb70629" tabindex="-1" value="">
+                      <div 
+                        aria-hidden="true" 
+                        style="position: absolute; left: -5000px;"
+                      >
+                        <input 
+                          type="text" 
+                          name="b_c94c8f342aaef2f35a35d45d9_dc9cb70629" 
+                          tabindex="-1" 
+                          value=""
+                        >
                       </div>
 
                       <!-- Botón de envío -->
@@ -124,11 +174,15 @@
                             type="submit" 
                             name="subscribe" 
                             id="mc-embedded-subscribe" 
-                            class="button bg-blue-600 text-white px-6 py-2 rounded-md font-bold hover:bg-blue-700 transition-colors cursor-pointer"
+                            class="button 
+                                   bg-blue-600 dark:bg-blue-500 
+                                   text-white px-6 py-2 
+                                   rounded-md font-bold 
+                                   hover:bg-blue-700 dark:hover:bg-blue-600 
+                                   transition-colors cursor-pointer"
                             value="Enviar"
                           >
-
-                          <!-- Ajuste #2: insignia Mailchimp a la derecha, más pequeña y menos visible -->
+                          <!-- Insignia Mailchimp -->
                           <p class="mt-2 text-right">
                             <a 
                               href="http://eepurl.com/jaywVI" 
@@ -144,7 +198,6 @@
                               >
                             </a>
                           </p>
-
                         </div>
                       </div>
 
@@ -182,10 +235,4 @@
     <script src="https://maps.googleapis.com/maps/api/js?key={{ site.Params.google_map.map_api_key }}&libraries=places"></script>
   {{ end }}
 
-
-
-
- 
-
-    
 {{ end }}
