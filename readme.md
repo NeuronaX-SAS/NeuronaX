@@ -1,237 +1,182 @@
-<h1 align="center">Hugo + Tailwind CSS Starter and Boilerplate</h1>
+<h1 align="center">NeuronaX S.A.S: Innovación y Transformación Digital</h1>
 
-<p align="center">Hugoplate is a free starter template built with Hugo, and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time.</p>
+<p align="center">NeuronaX S.A.S es tu socio estratégico en tecnología, impulsando la innovación y la transformación digital para llevar tu negocio al siguiente nivel con soluciones a medida.</p>
 
-<p align="center">Made with ♥ by <a href="https://zeon.studio/"> Zeon Studio</a></p>
-<p align=center> If you find this project useful, please give it a ⭐ to show your support.</p>
+<p align="center">Innovando con ♥ en <a href="https://neuronax.net/"> NeuronaX S.A.S</a></p>
+<p align=center> ¿Listo para transformar tu negocio? Contáctanos y descubre cómo podemos ayudarte.</p>
 
-<h2 align="center"> <a target="_blank" href="https://zeon.studio/preview?project=hugoplate" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-hugoplate-netlify-app/6lyxjw6t4r?form_factor=desktop">Page Speed (95+)🚀</a>
+<h2 align="center"> <a target="_blank" href="https://neuronax.net/" rel="nofollow">💻 Visita Nuestro Sitio Web</a> | <a  target="_blank" href="https://neuronax.net/">💡 Descubre Nuestras Soluciones</a>
 </h2>
 
 <p align="center">
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.126.0" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.126.0&color=f00&logo=hugo" />
+  <a href="https://neuronax.net/" alt="Software a Medida">
+    <img src="https://img.shields.io/badge/Desarrollo-Software%20a%20Medida-blue?logo=devdotto" />
   </a>
-
-  <a href="https://github.com/zeon-studio/hugoplate/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/zeon-studio/hugoplate" alt="license">
+  <a href="https://neuronax.net/" alt="Inteligencia Artificial">
+    <img src="https://img.shields.io/badge/IA%20y%20Datos-Inteligencia%20Artificial-purple?logo=openai" />
   </a>
-
-  <a href="https://github.com/zeon-studio/hugoplate">
-    <img src="https://img.shields.io/github/languages/code-size/zeon-studio/hugoplate" alt="code size">
+  <a href="https://neuronax.net/" alt="Soluciones Cloud">
+    <img src="https://img.shields.io/badge/Infraestructura-Soluciones%20Cloud-orange?logo=amazon-aws" />
   </a>
-
-  <a href="https://github.com/zeon-studio/hugoplate/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/zeon-studio/hugoplate" alt="contributors">
+  <a href="https://neuronax.net/" alt="Consultoría Tecnológica">
+    <img src="https://img.shields.io/badge/Consultoría-Tecnológica-green?logo=thoughtworks" />
   </a>
 </p>
 
-## 🎁 What's Included
+## 🎁 Nuestros Servicios
 
-We have included almost everything you need to start your Hugo project. Let's see what's included in this template:
+Ofrecemos un abanico completo de servicios tecnológicos diseñados para impulsar tu crecimiento y eficiencia:
 
-### 📌 Key Features
+### 📌 Beneficios Clave
 
-- 👥 Multi-Authors
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown
-- 💬 Disqus Comment
-- 🔳 Syntax Highlighting
+- 💡 Soluciones 100% Personalizadas
+- 🚀 Impulso a la Innovación Constante
+- 👨‍💻 Equipo Altamente Cualificado y Experto
+- 🎯 Enfoque Claro en Resultados Medibles
+- 📈 Aceleración de la Transformación Digital
+- 🤝 Soporte y Acompañamiento Integral
+- ☁️ Desarrollo Escalable y Preparado para el Futuro
+- 🔒 Seguridad y Confidencialidad Garantizadas
 
-### 📄 15+ Pre-designed Pages
+### 📄 Áreas de Especialización
 
-- 🏠 Homepage
-- 👤 About
-- 📞 Contact
-- 👥 Authors
-- 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
-- 🚫 Custom 404
-- 💡 Elements
-- 📄 Privacy Policy
-- 🏷️ Tags
-- 🏷️ Tag Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 🔍 Search
+- 💻 Desarrollo de Software a Medida (Web, Móvil, Escritorio)
+- 🤖 Inteligencia Artificial y Machine Learning
+- 📊 Ciencia de Datos y Analítica Avanzada
+- ☁️ Arquitectura y Soluciones Cloud (AWS, Azure, GCP)
+- 🌐 Aplicaciones Web Modernas y Progresivas (PWA)
+- 📱 Desarrollo de Aplicaciones Móviles Nativas e Híbridas
+-  CONSULTORÍA Consultoría Tecnológica Estratégica
+- ⚙️ Automatización Inteligente de Procesos (RPA & IA)
+- 🛡️ Ciberseguridad y Prácticas DevSecOps
+- 🔗 Integración de Sistemas y APIs
+- ✨ Modernización de Aplicaciones Legadas
 
-### 📦 Tech Stack
+### 📦 Tecnologías que Dominamos
 
-- [Hugo](https://gohugo.io/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [AutoPrefixer](https://autoprefixer.github.io/)
-- [Hugo Modules](https://gohugo.io/hugo-modules/) by [Gethugothemes](https://gethugothemes.com/hugo-modules)
-- [Markdown](https://markdownguide.org/)
-- [Prettier](https://prettier.io/)
-- [Jshint](https://jshint.com/)
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [Github Actions](https://github.com/features/actions)
-- [Gitlab Ci](https://docs.gitlab.com/ee/ci/)
-- [AWS Amplify](https://aws.amazon.com/amplify/)
+- [Python](https://www.python.org/) (Django, Flask, FastAPI)
+- [Java](https://www.java.com/) (Spring Boot)
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) (React, Angular, Vue, Node.js)
+- [.NET](https://dotnet.microsoft.com/) (Core, Framework)
+- IA/ML: [TensorFlow](https://www.tensorflow.org/), [PyTorch](https://pytorch.org/), [Scikit-learn](https://scikit-learn.org/)
+- Cloud: [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com/), [Google Cloud](https://cloud.google.com/)
+- Contenedores: [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/)
+- Bases de Datos: SQL (PostgreSQL, MySQL), NoSQL (MongoDB, Redis)
+- DevOps: CI/CD, Terraform, Ansible
+- Metodologías Ágiles (Scrum, Kanban)
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Inicia tu Transformación
 
-First you need to [clone](https://github.com/zeon-studio/hugoplate) or [download](https://github.com/zeon-studio/hugoplate/archive/refs/heads/main.zip) the template repository, and then let's get started with the following process:
+Empezar a trabajar con NeuronaX es un proceso claro y colaborativo. Te acompañamos en cada paso hacia el éxito digital:
 
-### ⚙️ Prerequisites
+### ⚙️ Por Qué Elegirnos
 
-To start using this template, you need to have some prerequisites installed on your machine.
+- **Experiencia Comprobada:** Trayectoria sólida en proyectos tecnológicos complejos.
+- **Enfoque Centrado en el Cliente:** Tus objetivos son nuestra prioridad.
+- **Metodologías Ágiles:** Flexibilidad y entregas rápidas de valor.
+- **Talento Excepcional:** Acceso a ingenieros y consultores de primer nivel.
+- **Compromiso con la Calidad:** Soluciones robustas, seguras y escalables.
+- **Innovación en el ADN:** Aplicamos las últimas tendencias tecnológicas de forma práctica.
 
-- [Hugo Extended v0.124+](https://gohugo.io/installation/)
-- [Node v20+](https://nodejs.org/en/download/)
-- [Go v1.22+](https://go.dev/doc/install)
+### 👉 Nuestro Enfoque Colaborativo
 
-### 👉 Project Setup
+1.  **Descubrimiento y Análisis:** Entendemos a fondo tus necesidades y contexto.
+2.  **Diseño de la Solución:** Proponemos la arquitectura y tecnología óptimas.
+3.  **Desarrollo Ágil:** Construimos la solución en ciclos iterativos y transparentes.
+4.  **Calidad y Pruebas:** Aseguramos el correcto funcionamiento y seguridad.
+5.  **Implementación y Despliegue:** Ponemos en marcha la solución en tu entorno.
+6.  **Soporte y Evolución:** Te acompañamos en el crecimiento y mejora continua.
 
-We build this custom script to make your project setup easier. It will create a new Hugo theme folder, and clone the Hugoplate theme into it. Then move the exampleSite folder into the root directory. So that you can start your Hugo server without going into the exampleSite folder. Use the following command to setup your project.
+### 👉 Conversemos sobre tu Proyecto
 
-```bash
-npm run project-setup
-```
+Contáctanos para una consulta inicial sin compromiso. Analizaremos tus desafíos y te propondremos cómo la tecnología puede impulsar tu negocio. ¡El primer paso hacia la innovación empieza con una conversación!
 
-### 👉 Install Dependencies
+### 🎬 Explora Nuestro Potencial
 
-Install all the dependencies using the following command.
-
-```bash
-npm install
-```
-
-### 👉 Development Command
-
-Start the development server using the following command.
-
-```bash
-npm run dev
-```
-
-### 🎬 Still Confused? Watch a Quick Video
-
-https://github.com/zeon-studio/hugoplate/assets/58769763/c260c0ae-91be-42ce-b8db-aa7f11f777bd
+Visita nuestro <a href="https://neuronax.net/" target="_blank">sitio web</a> para conocer más sobre nuestros proyectos, enfoque y cómo hemos ayudado a otras empresas a alcanzar sus metas.
 
 ---
 
-## 📝 Customization
+## 📝 Nuestras Soluciones Detalladas
 
-This template has been designed with a lot of customization options in mind. You can customize almost anything you want, including:
+Adaptamos nuestra profunda experiencia tecnológica para crear soluciones que generan un impacto real:
 
-### 👉 Site Config
+### 👉 Desarrollo de Software Personalizado
 
-You can change the site title, base URL, language, theme, plugins, and more from the `hugo.toml` file.
+Creamos aplicaciones web, móviles y sistemas empresariales robustos, intuitivos y escalables, diseñados exclusivamente para optimizar tus operaciones y satisfacer tus requerimientos únicos.
 
-### 👉 Site Params
+### 👉 Inteligencia Artificial y Ciencia de Datos
 
-You can customize all the parameters from the `config/_default/params.toml` file. This includes the logo, favicon, search, SEO metadata, and more.
+Implementamos modelos de IA, Machine Learning y análisis predictivo para automatizar tareas, descubrir insights ocultos en tus datos, personalizar experiencias y potenciar la toma de decisiones estratégicas.
 
-### 👉 Colors and Fonts
+### 👉 Servicios Cloud y DevOps
 
-You can change the colors and fonts from the `data/theme.json` file. This includes the primary color, secondary color, font family, and font size.
+Diseñamos, migramos, implementamos y gestionamos infraestructuras en la nube (AWS, Azure, GCP) seguras, resilientes y costo-eficientes. Aplicamos prácticas DevOps para acelerar la entrega de software con calidad.
 
-### 👉 Social Links
+### 👉 Consultoría Tecnológica Estratégica
 
-You can change the social links from the `data/social.json` file. Add your social links here, and they will automatically be displayed on the site.
-
----
-
-## 🛠 Advanced Usage
-
-We have added some custom scripts to make your life easier. You can use these scripts to help you with your development.
-
-### 👉 Update Theme
-
-If you want to update the theme, then you can use the following command. It will update the theme to the latest version.
-
-```bash
-npm run update-theme
-```
-
-> **Note:** This command will work after running `project-setup` script.
-
-### 👉 Update Modules
-
-We have added a lot of modules to this template. You can update all the modules using the following command.
-
-```bash
-npm run update-modules
-```
-
-### 👉 Remove Dark Mode
-
-If you want to remove dark mode from your project, you can use the following command to remove dark mode from your project.
-
-```bash
-npm run remove-darkmode
-```
-
-> **Note:** This command will work before running `project-setup` script. If you already run the `project-setup` command, then you have to run `npm run theme-setup` first, and then you can run this command. afterward, you can run `npm run project-setup` again.
+Te guiamos en la selección e implementación de las tecnologías adecuadas, definimos tu hoja de ruta de transformación digital y te ayudamos a optimizar tu ecosistema TI para maximizar el retorno de inversión.
 
 ---
 
-## 🚀 Build And Deploy
+## 🛠 Nuestra Experiencia Técnica Profunda
 
-After you finish your development, you can build or deploy your project almost everywhere. Let's see the process:
+Nuestro equipo posee un conocimiento profundo y actualizado en arquitecturas y tecnologías de vanguardia para construir soluciones sólidas:
 
-### 👉 Build Command
+### 👉 Arquitecturas Modernas
 
-To build your project locally, you can use the following command.
+Experiencia en Microservicios, Arquitecturas Orientadas a Eventos (EDA), Serverless, Domain-Driven Design (DDD), garantizando escalabilidad y mantenibilidad.
 
-```bash
-npm run build
-```
+### 👉 Big Data & Analytics
 
-### 👉 Deploy Site
+Capacidad para diseñar y construir pipelines de datos, Data Lakes, Data Warehouses y sistemas de Business Intelligence para manejar y explotar grandes volúmenes de información.
 
-We have provided 5 different deploy platform configurations with this template, so you can deploy easily.
+### 👉 Seguridad y Cumplimiento Normativo
 
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [Github Actions](https://github.com/features/actions)
-- [Gitlab Ci](https://docs.gitlab.com/ee/ci/)
-- [AWS Amplify](https://aws.amazon.com/amplify/)
-
-And if you want to Host some other hosting platforms. then you can build your project, and you will get a `public` folder. that you can copy and paste on your hosting platform.
-
-> **Note:** You must change the `baseURL` in the `hugo.toml` file. Otherwise, your site will not work properly.
+Integramos la seguridad desde el diseño (DevSecOps), realizamos auditorías y aseguramos el cumplimiento de normativas relevantes (ej. GDPR, HIPAA si aplica).
 
 ---
 
-## 🔒 Guide to Staying Compliant
+## 🚀 Nuestro Impacto en tu Negocio
 
-### 🐞 Reporting Issues
+Colaboramos estrechamente contigo para generar valor tangible y sostenible a través de la tecnología:
 
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/hugoplate/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/hugoplate/issues).
+### 👉 Resultados Medibles y Concretos
 
-### 📝 License
+Nos enfocamos en entregar soluciones que se traducen directamente en mejoras de KPIs clave: aumento de eficiencia operativa, reducción de costos, incremento de ingresos, mejora en la satisfacción del cliente.
 
-Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
+### 👉 Impulso a la Innovación y Competitividad
 
-**Code License:** Released under the [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+Facilitamos la adopción de tecnologías emergentes y nuevos modelos de negocio, ayudándote a mantenerte a la vanguardia en tu sector y a explorar nuevas oportunidades de crecimiento y diferenciación.
 
 ---
 
-## 🖼️ Showcase
+## 🔒 Contáctanos
 
-List of some projects people are building with **Hugoplate**!
+Estamos listos para escuchar tus ideas y desafíos tecnológicos.
 
-| [![Open Neuromorphic](https://tinyurl.com/hp7avtje)](https://open-neuromorphic.org/) | [![AI Models](https://tinyurl.com/mu4p7dhb)](https://aimodels.org/) | [![Hugobricks](https://tinyurl.com/4x3uwhm9)](https://www.hugobricks.preview.usecue.com/) | [![ONO LLC](https://tinyurl.com/2fbjzwzn)](https://ono.day/)
+### 🐞 Habla con un Experto
+
+¿Tienes un proyecto en mente o simplemente quieres explorar cómo la tecnología puede ayudarte? Visita nuestro sitio web <a href="https://neuronax.net/">neuronax.net</a> y utiliza nuestro formulario de contacto, o encuéntranos en nuestras redes sociales. ¡Nos encantará conversar contigo!
+
+### 📝 Aviso Legal
+
+Copyright © 2024 - Presente, NeuronaX S.A.S. Todos los derechos reservados.
+
+---
+
+## 🖼️ Casos de Éxito (Ejemplos Sectoriales)
+
+Clientes de diversas industrias confían en NeuronaX para potenciar su transformación digital.
+
+| ![Cliente Sector Financiero](https://via.placeholder.com/150/093A7A/FFFFFF?text=Sector+Financiero) | ![Cliente Sector Retail](https://via.placeholder.com/150/4CAF50/FFFFFF?text=Sector+Retail) | ![Cliente Sector Salud](https://via.placeholder.com/150/E91E63/FFFFFF?text=Sector+Salud) | ![Startup Tecnológica](https://via.placeholder.com/150/FFC107/000000?text=Startup+Tech) |
 |:---:|:---:|:---:|:---:|
-| **Open Neuromorphic** | **AI Models** | **Hugobricks** | **ONO LLC** |
+| **Optimización Financiera con IA** | **Plataformas E-commerce Escalables** | **Soluciones de Telemedicina** | **Desarrollo MVP y Crecimiento** |
 
 ---
 
-## 💻 Need Customization?
+## 💻 ¿Necesitas una Solución Tecnológica a Medida?
 
-If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://zeon.studio/estimate-project).
+Si buscas un desarrollo de software personalizado, servicios expertos en IA y Cloud, consultoría estratégica o una transformación digital integral, NeuronaX S.A.S es tu aliado tecnológico ideal. <a href="https://neuronax.net/">Contáctanos hoy mismo para discutir tu proyecto</a>.
