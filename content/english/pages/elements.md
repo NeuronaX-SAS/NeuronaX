@@ -1,5 +1,5 @@
 ---
-title: "Proyectos Innovadores y Futuristas"
+title: "Nuestros Proyectos"
 meta_title: "Innovación y Excelencia en NeuronaX S.A.S"
 description: "Explora nuestros proyectos tecnológicos innovadores y futuristas que potencian su negocio hacia el éxito."
 image: "/images/avatar.png"

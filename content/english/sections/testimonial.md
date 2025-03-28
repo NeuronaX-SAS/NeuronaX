@@ -1,7 +1,7 @@
 ---
 enable: true
-title: "¿Qué dicen nuestros clientes de NeuronaX S.A.S?"
-description: "No se fíe sólo de nuestra palabra: ¡escuche a algunos de nuestros usuarios satisfechos!  Brinde un vistazo a algunos de nuestros testimonios a continuación para ver lo que otros dicen acerca de NeuronaX S.A.S."
+title: "¿Qué dicen los clientes de NeuronaX S.A.S?"
+description: "No te fíes sólo de nuestra palabra: ¡Escucha a algunos de nuestros usuarios satisfechos!  Brinda un vistazo a algunos de los testimonios a continuación para ver lo que otros dicen acerca de NeuronaX S.A.S."
 
 # Testimonials
 testimonials:
