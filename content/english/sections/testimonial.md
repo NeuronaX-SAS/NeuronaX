@@ -15,7 +15,7 @@ testimonials:
     avatar: "/images/avatar-sm.png"
     content: "Actualmente trabajo en una empresa de hidrocarburos y en enero de 2025 necesitabamos construir una página web para una comunidad indigena como acuerdo de una consulta previa, NeuronaX S.A.S no sólo se tomó el trabajo de construir un producto muy lindo, sino que hizo un trabajo muy juicioso para traducir la página web al idioma nativo de la comunidad."
 
-  - name: "Mario Llinares"
+  - name: "Mario Lleras"
     designation: "Ingeniero Web"
     avatar: "/images/avatar-sm.png"
     content: "Este equipo de 'cracks' me ayudó a terminar el desarrollo front-end de un e-commerce para una empresa de papeles llamada papelka."

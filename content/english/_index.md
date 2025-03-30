@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "Tu Marca Digital, Profesional y al Mejor Precio"
-  content: "Únete a más de 1000 proyectos exitosos y transforma tu negocio hoy mismo"
+  title: "Impulsa tu Marca Digital con Innovación y Excelencia"
+  content: "Únete a más de 1000 proyectos triunfantes y transforma tu futuro empresarial"
   image: "/images/banner.png"
   button:
     enable: true
