@@ -1,78 +1,33 @@
-/* Reinicios y reglas globales para eliminar márgenes y fondos claros */
-html, body {
-  margin: 0;
-  padding: 0;
-  background-color: #121212 !important;
-  color: #E0E0E0 !important;
-  font-family: "Inter", sans-serif;
-  line-height: 1.5;
+/* Add your own custom styles here */
+:root {
+  --line-height-base: 1.5;
+  --element-spacing: 0.75rem;
 }
 
-/* Ajuste general para asegurar que ningún elemento genere fondo blanco */
-* {
-  background-color: transparent !important;
-  color: inherit;
-  box-sizing: border-box;
+body {
+  line-height: var(--line-height-base);
 }
 
-/* Sobrescribimos contenedores principales para asegurar fondos oscuros */
-body,
-header,
-main,
-footer,
-section,
-article,
-aside,
-nav,
-div,
-.container,
-.container-compact {
-  background-color: #121212 !important;
-}
-
-/* Títulos y párrafos */
 h1, h2, h3 {
   margin-bottom: 1rem;
   line-height: 1.3;
 }
+
 p + p {
   margin-top: 0.5rem;
 }
 
-/* Espaciados en secciones */
 section {
   padding: 2rem 0;
 }
 
-/* Contenedor compacto para secciones específicas */
 .container-compact {
   padding-inline: 1rem;
 }
 
-/* Botones poderosos con un gradiente llamativo */
-button,
-.btn,
-.button {
-  background: linear-gradient(135deg, #8E44AD 0%, #3498DB 100%);
-  color: #FFFFFF;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 0.375rem;
-  cursor: pointer;
-  transition: background 0.3s ease;
-  font-weight: 600;
-}
-
-/* Efecto hover en los botones */
-button:hover,
-.btn:hover,
-.button:hover {
-  background: linear-gradient(135deg, #3498DB 0%, #8E44AD 100%);
-}
-
-/* Ajustes para modo oscuro preferido del sistema */
 @media (prefers-color-scheme: dark) {
   .mailchimp-form label {
-    color: #B0B0B0 !important;
+    color: #423838;
   }
+  /* más ajustes si lo requieres */
 }
