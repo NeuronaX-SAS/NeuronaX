@@ -9,7 +9,7 @@ logo_text = "NeuronaX S.A.S"
 
 navbar_fixed = true
 theme_switcher = true
-theme_default = "system" # available options [light/dark/system]
+theme_default = "dark" # available options [light/dark/system]
 mainSections = ["blog"]
 
 # Esta acción se usaba para un formulario de contacto, pero ahora todo lo maneja Mailchimp en subscription
