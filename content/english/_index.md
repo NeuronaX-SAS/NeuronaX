@@ -28,7 +28,7 @@ features:
     image: "/images/service-2.png"
     content: "Posiciona tu marca con estrategias digitales efectivas y diseño gráfico impactante."
     bulletpoints:
-      - "Publicidad Digital (Google, Facebook, TikTok, Email Marketing y Chatbots)"
+      - "Publicidad Digital (Google, Facebook, TikTok, Linkedin, Email Marketing y Chatbots)"
       - "Packaging Innovador, Ecológico y Sistemas Antifalsificación"
       - "Impresión 3D, Gran Formato y Realidad Aumentada"
     button:
