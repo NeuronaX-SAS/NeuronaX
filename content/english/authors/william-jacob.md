@@ -16,4 +16,4 @@ social:
     icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/company/neuronax-s-a-s/?viewAsMember=true
 ---
-Condecorada con diversos honores del gremio arquitectonico colombiano, Nathaly es la mente detrás de nuestros mejores diseños. Ya sea que usted requiera apoyo en Publicidad Digital o Desarrollo Arquitectónico, ella es una de las mujeres jóvenes más competentes para transformar sus desafíos en oportunidades.
+Condecorada con diversos honores del gremio arquitectonico colombiano, Nathaly es la mente detrás de nuestros mejores diseños. Ya sea que requieras apoyo en Publicidad Digital o Desarrollo Arquitectónico, ella es una de las mujeres jóvenes más competentes para transformar tus desafíos en oportunidades.
